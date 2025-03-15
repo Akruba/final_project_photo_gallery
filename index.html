@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Photo Gallery</title>
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/gallery.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Mars Exploration Gallery</h1>
+    <p>Hover or focus on images below to display them in the main view.</p>
+  </header>
+  
+  <main>
+    <div id="image">
+      Hover or focus on an image below to display here.
+    </div>
+    
+    <div class="gallery-container">
+      <img class="preview" alt="Phobos Moon - Mars' largest satellite" src="images/phobos-moon.jpg" 
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      
+      <img class="preview" alt="Mars Surface - Red planet's rocky terrain" src="images/mars-surface.jpg" 
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      
+      <img class="preview" alt="Mars Moons - Phobos and Deimos" src="images/mars-moons.jpg" 
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      
+      <img class="preview" alt="Mars Habitat - Concept for future human settlement" src="images/mars-habitat.jpg" 
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      
+      <img class="preview" alt="Olympus Mons - Largest volcano in the solar system" src="images/olympus-mons.jpg" 
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      
+      <img class="preview" alt="Perseverance Rover - Exploring Mars since 2021" src="images/perseverance.jpg" 
+           onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+  </main>
+  
+  <footer>
+    <p>Web Design for Everybody. Mars Photo Gallery - Explore the Red Planet</p>
+  </footer>
+</body>
+</html>
